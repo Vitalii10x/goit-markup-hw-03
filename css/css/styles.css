@@ -1,0 +1,205 @@
+body {
+    font-family: 'Roboto';
+    background: #ffffff;
+    color: #212121;
+}
+
+
+/* Header site */
+
+.site-header {
+    background-color: #ffffff;
+}
+
+.site-logo {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #212121;
+    text-decoration: none;
+}
+
+.logo {
+    color: #2196F3;
+}
+
+.site-logo:hover,
+.site-logo:focus {
+    color: #2196F3;
+}
+
+.list {
+    list-style: none;
+}
+
+.site-nav-item {
+    width: 73px;
+    height: 38px;
+    left: 495px;
+    top: 174px;
+}
+
+.site-nav-item .site-nav.current {
+    color: #2196F3;
+}
+
+.site-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #212121;
+    text-decoration: none;
+}
+
+.site-nav:hover,
+.site-nav:focus {
+    color: #2196F3;
+}
+
+.site-contacts-nav {
+    color: #757575;
+    text-decoration: none;
+}
+
+.site-contacts-nav:hover,
+.site-contacts-nav:focus {
+    color: #2196F3;
+}
+
+
+/* Студия */
+
+.section-hero {
+    background: #2F303A;
+}
+
+.section-name {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    color: #FFFFFF;
+}
+
+.button {
+    font-size: 16px;
+    line-height: 1.9;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #757575;
+}
+
+.section-work {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.section-work-list {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #757575;
+}
+
+.section-main-work {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    }
+
+.section-command {
+    font-size: 16px;
+    line-height: 1.2;
+    }
+
+.section-command-item {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #757575;
+}    
+
+
+/* Портфолио */
+
+
+.button-item {
+    font-size: 16px;
+    line-height: 1.6;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+
+.button-item:hover,
+.button-item:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+
+.block-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.block-theme {
+    font-size: 16px;
+    line-height: 1.9;
+    color: #757575;
+}
+
+
+/* Footer site */
+
+.footer {
+    background: #2F303A;
+}
+.site-logo-footer {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.site-logo-footer:hover,
+.site-logo-footer:focus {
+    color: #2196F3;
+}
+
+.footer-adress {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+}
+
+.footer-adress-company {
+    line-height: 1.7;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-adress-company:hover,
+.footer-adress-company:focus {
+    color: #2196F3;
+}
+
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: #2196F3;
+}
