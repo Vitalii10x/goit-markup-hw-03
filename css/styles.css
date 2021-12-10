@@ -123,10 +123,12 @@ body {
 
 /* Портфолио */
 
+
 .button-item {
     font-size: 16px;
     line-height: 1.6;
     border-radius: 4px;
+    background-color: #F5F4FA;
     cursor: pointer;
 }
 
