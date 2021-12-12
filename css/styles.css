@@ -43,6 +43,7 @@ body {
 
 .site-nav-item {
     background: #ffffff;
+    display: flex;
 }
 
 .site-nav-item .site-nav.current {
@@ -77,6 +78,9 @@ body {
     color: var(--nav-text-color);
 }
 
+.block-contacts {
+    display: flex;
+}
 
 /* Студия */
 
@@ -148,6 +152,25 @@ body {
 
 /* Портфолио */
 
+.portfolio-projects {
+    box-sizing: border-box;
+}
+
+ul.portfolio-card {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: 30px;
+    margin-right: 30px;
+} 
+
+li.portfolio-card-item {
+
+}
+
+.button-projects {
+    display: flex;
+}
 
 .button-item {
     font-family: Roboto;
