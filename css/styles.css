@@ -44,13 +44,14 @@ body {
 /* Шапка сайта */
 
 .header {
-    background: #FFFFFF;
-    border-bottom: 1px solid #ECECEC;
+    
 }
 
 .header-nav {
     display: flex;
-    align-items: center; 
+    align-items: center;
+    background: #FFFFFF;
+    border-bottom: 1px solid #ECECEC; 
 }
 
 .site-logo { 
@@ -133,8 +134,11 @@ body {
 /* Студия */
 
 .section-hero {
-    background: #2F303A;
     text-align: center;
+}
+
+.hero-theme {
+    background: #2F303A;
 }
 
 .section-hero-name {
@@ -369,7 +373,7 @@ body {
     background: #2F303A;
 }
 .footer-nav {
-    padding-left: 15px;
+    padding-left: 30px;
 }
 .footer-logo {
     font-family: Raleway;
