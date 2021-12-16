@@ -50,12 +50,13 @@ body {
 
 .header-nav {
     display: flex;
-    align-items: center;   
+    align-items: center; 
 }
 
-
-
 .site-logo {
+    margin-left: 25px;  
+    padding-bottom: 24px;
+    padding-top: 25px;
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
@@ -87,8 +88,8 @@ body {
 
 .site-nav-item {
     display: block;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 32px;
+    padding-top: 32px;
 
     font-weight: 500;
     font-size: 14px;
@@ -109,8 +110,9 @@ body {
 }
 
 .site-contacts-item {
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    margin-right: 0;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -217,13 +219,14 @@ body {
 
 .section-service-image {
     display: flex;
+    justify-content: center;
 }
 
 .section-service-img {
     margin-right: 30px;
 }
 
-.section-service-img:nth-child(4n) {
+.section-service-img:nth-child(3n) {
     margin-right: 0;
 }
 
@@ -235,6 +238,7 @@ body {
 
 .section-command-icon {
     display: flex;
+    justify-content: center;
 }
 
 .section-command-card {
@@ -243,6 +247,10 @@ body {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
+}
+
+.section-command-card:nth-child(4n) {
+    margin-right: 0;
 }
 
 .section-command-name {
@@ -255,8 +263,8 @@ body {
     }
 
 .section-command-item {
-    padding-bottom: 10px;
-    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 0;
     font-size: 16px;
     line-height: 1.2;
     }
@@ -291,7 +299,7 @@ body {
     border: 1px solid transparent;
 }
 
-.portfolio-button-item:not(:last-child) {
+.p-b-t {
     margin-right: 0;
 }
 
@@ -328,12 +336,12 @@ body {
 }
 
 .portfolio-card-nav {
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 20px 24px;
     border: 1px  solid #EEEEEE;
     border-top: 0;
-    box-sizing: border-box;
-
-    background: #FFFFFF;
+    background: white;
 }
 
 .portfolio-card-name {
@@ -349,7 +357,7 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.875;
     color: var(--title-text-color);
 }
 
@@ -396,17 +404,14 @@ body {
     color: var(--nav-text-color);
 }
 
-.footer-contact {
+.footer-contact,
+.f-contact {
     margin-top: 9px;
 }
 
 .footer-contacts {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-}
-
-.f-contact {
-    margin-top: 9px;
 }
 
 .footer-contacts:hover,
