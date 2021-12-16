@@ -41,23 +41,23 @@ body {
     margin: 0 auto;
 }
 
-/* Шапка сайта */
+/* ########### ХЕДЕР ###########*/
 
 .header {
-    
+    border-bottom: 1px solid #ECECEC; 
 }
 
 .header-nav {
     display: flex;
     align-items: center;
     background: #FFFFFF;
-    border-bottom: 1px solid #ECECEC; 
 }
 
 .site-logo { 
     padding-left: 15px;
     padding-bottom: 24px;
     padding-top: 25px;
+
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
@@ -114,6 +114,7 @@ body {
     padding-bottom: 32px;
     padding-top: 32px;
     margin-right: 0;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -131,7 +132,7 @@ body {
     margin-right: 50px;
 }
 
-/* Студия */
+/* ########### СТУДИЯ ###########*/
 
 .section-hero {
     text-align: center;
@@ -145,6 +146,7 @@ body {
     padding-top: 200px;
     margin-top: 0;
     margin-bottom: 30px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -198,6 +200,7 @@ body {
     margin-top: 0;
     margin-bottom: 50px;
     font-weight: bold;
+
     font-size: 36px;
     line-height: 1.166;
     text-align: center;
@@ -207,6 +210,7 @@ body {
     margin-top: 0;
     margin-bottom: 10px;
     font-weight: bold;
+
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -216,6 +220,7 @@ body {
 .section-service-text {
     margin-top: 0;
     margin-bottom: 0;
+
     font-size: 14px;
     line-height: 1.7;
     color: var(--title-text-color);
@@ -247,6 +252,7 @@ body {
 
 .section-command-card {
     margin-right: 30px;
+
     text-align: center;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -269,19 +275,21 @@ body {
 .section-command-item {
     margin-bottom: 10px;
     margin-top: 0;
+
     font-size: 16px;
     line-height: 1.2;
     }
 
 .section-command-subtitle {
     margin: 0;
+
     font-size: 16px;
     line-height: 1.2;
     color: var(--title-text-color);
 }    
 
 
-/* Портфолио */
+/* ########### ПОРТФОЛИО ###########*/
 
 .portfolio-button {
     display: flex;
@@ -343,6 +351,7 @@ body {
     margin-top: -4px;
     margin-bottom: 0;
     padding: 20px 24px;
+
     border: 1px  solid #EEEEEE;
     border-top: 0;
     background: white;
@@ -351,6 +360,7 @@ body {
 .portfolio-card-name {
     margin-top: 0;
     margin-bottom: 4px;
+
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
@@ -360,13 +370,14 @@ body {
 .portfolio-card-theme {
     margin-top: 0;
     margin-bottom: 0;
+
     font-size: 16px;
     line-height: 1.875;
     color: var(--title-text-color);
 }
 
 
-/* Футер сайта */
+/* ########### ФУТЕР ###########*/
 
 .footer {
     padding: 60px 0;
@@ -384,13 +395,9 @@ body {
     text-decoration: none;
 }
 
-.footer-logo:hover,
-.footer-logo:focus {
-    color: var(--nav-text-color);
-}
-
 .footer-adress {
     margin-top: 20px;
+
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -406,7 +413,11 @@ body {
 }
 
 .footer-adress-company:hover,
-.footer-adress-company:focus {
+.footer-adress-company:focus,
+.footer-contacts:hover,
+.footer-contacts:focus,
+.footer-logo:hover,
+.footer-logo:focus {
     color: var(--nav-text-color);
 }
 
@@ -418,9 +429,4 @@ body {
 .footer-contacts {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-}
-
-.footer-contacts:hover,
-.footer-contacts:focus {
-    color: var(--nav-text-color);
 }
