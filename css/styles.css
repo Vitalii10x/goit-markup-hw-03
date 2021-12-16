@@ -53,8 +53,8 @@ body {
     align-items: center; 
 }
 
-.site-logo {
-    margin-left: 25px;  
+.site-logo { 
+    margin-left: 15px;
     padding-bottom: 24px;
     padding-top: 25px;
     font-family: Raleway;
@@ -368,7 +368,9 @@ body {
     padding: 60px 0;
     background: #2F303A;
 }
-
+.footer-nav {
+    margin-left: 15px;
+}
 .footer-logo {
     font-family: Raleway;
     font-weight: bold;
