@@ -35,9 +35,7 @@ body {
 }
 
 .container {
-    width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -54,7 +52,7 @@ body {
 }
 
 .site-logo { 
-    padding-left: 15px;
+    padding-left: 20px;
     padding-bottom: 24px;
     padding-top: 25px;
 
@@ -107,7 +105,7 @@ body {
 
 .site-contacts {
     display: flex;
-    margin-left: 331px;
+    margin-left: auto;
 }
 
 .site-contacts-item {
@@ -135,15 +133,13 @@ body {
 /* ########### СТУДИЯ ###########*/
 
 .section-hero {
-    text-align: center;
-}
+    padding: 200px 0;
 
-.hero-theme {
+    text-align: center;
     background: #2F303A;
 }
 
 .section-hero-name {
-    padding-top: 200px;
     margin-top: 0;
     margin-bottom: 30px;
 
@@ -153,15 +149,11 @@ body {
     color: var(--btn-text-color);
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
 }
 
 .section-hero-button {
-    border-radius: 4px;
     padding: 10px 32px ;
-    min-width: 200px;
-    margin-bottom: 200px;
-
+    
     font-family: Roboto;
     font-size: 16px;
     line-height: 1.875;
@@ -170,21 +162,20 @@ body {
     letter-spacing: 0.06em;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     cursor: pointer;
-    text-align: center;
-    
 }
 
 .button:hover,
 .button:focus {
-    background-color: #757575;
+    background-color: #188CE8;
 }
 
 /* Секция: Чем мы занимаемся*/
 
 .section-service-work {
     display: flex;
-
+    justify-content: center;
 }
 
 .section-servise-item {
@@ -226,6 +217,10 @@ body {
     color: var(--title-text-color);
 }
 
+.section-card {
+    padding-bottom: 94px;
+}
+
 .section-service-image {
     display: flex;
     justify-content: center;
@@ -264,8 +259,8 @@ body {
 }
 
 .section-command-name {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .section-command-list {
@@ -291,10 +286,13 @@ body {
 
 /* ########### ПОРТФОЛИО ###########*/
 
+.portfolio-menu {
+    padding-top: 94px;
+}
+
 .portfolio-button {
     display: flex;
     justify-content: center;
-    padding-top: 94px;
 }
 
 .portfolio-button-item {
@@ -323,7 +321,7 @@ body {
 }
 
 .portfolio-projects {
-    padding-top: 54px;
+    margin-top: 54px;
     padding-bottom: 94px;
 }
 
@@ -380,12 +378,9 @@ body {
 /* ########### ФУТЕР ###########*/
 
 .footer {
-    padding: 60px 0;
     background: #2F303A;
-}
-
-.footer-nav {
-    padding-left: 30px;
+    padding: 60px 0;
+    padding-left: 20px;
 }
 
 .footer-logo {
